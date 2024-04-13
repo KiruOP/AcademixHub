@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcademixHub</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+            <div class="box-heading">
+                <span>SELECT USER TYPE</span>
+            </div>
+            <div class="login-options">
+                <div class="option-card">
+                    <img src="" alt="student-image"> <!-- insert image -->
+                    <span>Student Login</span>
+                </div>
+                <div class="option-card">
+                    <img src="" alt="teacher-image"> <!-- insert image -->
+                    <span>Teacher Login</span>
+                </div>
+                <div class="option-card">
+                    <img src="" alt="admin-image"> <!-- insert image -->
+                    <span>Admin Login</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- student login form section -->
+        <!-- others login form section are changed in javascript -->
+
+        <div class="container">
+            <form class="login-form" action="login.php" method="POST">
+                <h2>Login to Student Portal</h2>
+                <input type="text" name="username" placeholder="Username or Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Remember Me</label>
+                <input type="submit" value="Log In">
+                <div>
+                    <a href="forgot_password.html">Forgot Password?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
