@@ -1,0 +1,287 @@
+.select-user-type,
+.select-user-type-wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.select-user-type {
+  height: 3.5rem;
+  width: 39.625rem;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+}
+.select-user-type-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.logincard-image-icon {
+  height: 9.938rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.logincard-image-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-41xl) 0 var(--padding-37xl);
+}
+.login2,
+.students {
+  margin: 0;
+}
+.students-login {
+  align-self: stretch;
+  height: 5.563rem;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-aclonica);
+  color: var(--textcolor);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.student-login-card {
+  cursor: pointer;
+  border: 2px solid var(--textcolor);
+  padding: var(--padding-37xl) 0 1.563rem;
+  background-color: var(--secondarybackgroundcolor);
+  width: 18.438rem;
+  border-radius: var(--br-lg);
+  box-shadow: 5px 5px 7px 2px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3.438rem;
+}
+.logincard-image-icon1 {
+  height: 9.938rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.logincard-image-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-41xl) 0 var(--padding-37xl);
+}
+.login3,
+.teachers {
+  margin: 0;
+}
+.teachers-login {
+  align-self: stretch;
+  height: 6.25rem;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-aclonica);
+  color: var(--textcolor);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.teacher-login-card {
+  cursor: pointer;
+  border: 2px solid var(--textcolor);
+  padding: var(--padding-37xl) 0 var(--padding-5xl);
+  background-color: var(--secondarybackgroundcolor);
+  width: 18.438rem;
+  border-radius: var(--br-lg);
+  box-shadow: 6px 6px 7px 2px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+}
+.logincard-image-icon2 {
+  height: 9.938rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.logincard-image-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-41xl) 0 var(--padding-37xl);
+}
+.admin,
+.login4 {
+  margin: 0;
+}
+.admin-login-txt-container {
+  line-break: anywhere;
+}
+.admin-login {
+  align-self: stretch;
+  height: 6.25rem;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-aclonica);
+  color: var(--textcolor);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.admin-login-card,
+.login-options {
+  display: flex;
+  align-items: flex-start;
+}
+.admin-login-card {
+  cursor: pointer;
+  border: 2px solid var(--textcolor);
+  padding: var(--padding-37xl) 0 var(--padding-5xl);
+  background-color: var(--secondarybackgroundcolor);
+  width: 18.438rem;
+  border-radius: var(--br-lg);
+  box-shadow: 6px 6px 7px 2px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+}
+.login-options {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.625rem;
+}
+.user-type,
+.userlogin-main-section {
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+}
+.userlogin-main-section {
+  width: 63.25rem;
+  border-radius: 29px;
+  background-color: var(--color-plum);
+  box-shadow: -9px -7px 50px -2px rgba(0, 0, 0, 0.25),
+    5px 5px 27.5px 8px rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 2.75rem 8.625rem 2.688rem;
+  gap: var(--gap-lg);
+  mix-blend-mode: normal;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-aclonica);
+}
+.user-type {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(-74.5deg, #31aaef 10.09%, #915ee1 98.4%);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 7.938rem var(--padding-xl) 17.938rem;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1000px) {
+  .userlogin-main-section {
+    padding-left: var(--padding-2xl);
+    padding-right: 1.375rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 975px) {
+  .admin-login,
+  .select-user-type,
+  .students-login,
+  .teachers-login {
+    font-size: var(--font-size-5xl);
+  }
+  .login-options {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 725px) {
+  .userlogin-main-section {
+    padding-top: var(--padding-xl);
+    padding-bottom: 5.625rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .select-user-type {
+    font-size: var(--font-size-lg);
+  }
+  .logincard-image-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .students-login {
+    font-size: var(--font-size-lg);
+  }
+  .student-login-card {
+    gap: var(--gap-8xl);
+    padding-top: var(--padding-17xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .logincard-image-container {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .teachers-login {
+    font-size: var(--font-size-lg);
+  }
+  .teacher-login-card {
+    gap: var(--gap-3xl);
+    padding-top: var(--padding-17xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .logincard-image-frame {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .admin-login {
+    font-size: var(--font-size-lg);
+  }
+  .admin-login-card {
+    gap: var(--gap-3xl);
+    padding-top: var(--padding-17xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

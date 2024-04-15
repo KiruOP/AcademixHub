@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/UserType.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Acme:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Aclonica:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Aleo:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="user-type">
+      <section class="userlogin-main-section">
+        <div class="select-user-type-wrapper">
+          <div class="select-user-type">SELECT USER TYPE</div>
+        </div>
+        <div class="login-options">
+          <button class="student-login-card" id="studentLoginCard">
+            <div class="logincard-image-wrapper">
+              <img
+                class="logincard-image-icon"
+                alt=""
+                src="./public/logincardimage@2x.png"
+              />
+            </div>
+            <div class="students-login">
+              <span>
+                <p class="students">Student’s</p>
+                <p class="login2">Login</p>
+              </span>
+            </div>
+          </button>
+          <button class="teacher-login-card" id="teacherLoginCard">
+            <div class="logincard-image-container">
+              <img
+                class="logincard-image-icon1"
+                alt=""
+                src="./public/logincardimage@2x.png"
+              />
+            </div>
+            <div class="teachers-login">
+              <span>
+                <p class="teachers">Teacher’s</p>
+                <p class="login3">Login</p>
+              </span>
+            </div>
+          </button>
+          <button class="admin-login-card" id="adminLoginCard">
+            <div class="logincard-image-frame">
+              <img
+                class="logincard-image-icon2"
+                alt=""
+                src="./public/logincardimage@2x.png"
+              />
+            </div>
+            <div class="admin-login">
+              <span class="admin-login-txt-container">
+                <p class="admin">Admin</p>
+                <p class="login4">Login</p>
+              </span>
+            </div>
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var studentLoginCard = document.getElementById("studentLoginCard");
+      if (studentLoginCard) {
+        studentLoginCard.addEventListener("click", function (e) {
+          window.location.href = "./StudentPortalDashboard.html";
+        });
+      }
+      
+      var teacherLoginCard = document.getElementById("teacherLoginCard");
+      if (teacherLoginCard) {
+        teacherLoginCard.addEventListener("click", function (e) {
+          window.location.href = "./StudentPortalDashboard.html";
+        });
+      }
+      
+      var adminLoginCard = document.getElementById("adminLoginCard");
+      if (adminLoginCard) {
+        adminLoginCard.addEventListener("click", function (e) {
+          window.location.href = "./StudentPortalDashboard.html";
+        });
+      }
+      </script>
+  </body>
+</html>
