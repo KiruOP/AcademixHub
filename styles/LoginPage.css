@@ -1,3 +1,7 @@
+body {
+  padding: 0 10%;
+}
+
 .login5 {
   margin: 0;
   position: relative;
@@ -355,9 +359,9 @@
 }
 .login-page {
   width: 100%;
+  height: 100%;
   position: relative;
   background: linear-gradient(-74.5deg, #31aaef 10.09%, #915ee1 98.4%);
-  padding: var(--padding-61xl) var(--padding-61xl) 16.5rem;
   box-sizing: border-box;
   line-height: normal;
   letter-spacing: normal;

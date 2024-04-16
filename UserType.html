@@ -7,36 +7,16 @@
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/UserType.css" />
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Abhaya Libre:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Figtree:wght@700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Acme:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Aclonica:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Aleo:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700|Poppins:wght@400;600|Abhaya+Libre:wght@400|Figtree:wght@700|Acme:wght@400|Aclonica:wght@400|Aleo:wght@700&display=swap"
     />
   </head>
-  <body>
-    <div class="user-type">
+  <body style="height: 100vh">
+    <div class="user-type h-100">
       <section class="userlogin-main-section">
         <div class="select-user-type-wrapper">
           <div class="select-user-type">SELECT USER TYPE</div>
@@ -51,10 +31,10 @@
               />
             </div>
             <div class="students-login">
-              <span>
+              <div class="col-12">
                 <p class="students">Student’s</p>
                 <p class="login2">Login</p>
-              </span>
+              </div>
             </div>
           </button>
           <button class="teacher-login-card" id="teacherLoginCard">
@@ -66,10 +46,10 @@
               />
             </div>
             <div class="teachers-login">
-              <span>
+              <div class="col-12">
                 <p class="teachers">Teacher’s</p>
                 <p class="login3">Login</p>
-              </span>
+              </div>
             </div>
           </button>
           <button class="admin-login-card" id="adminLoginCard">
@@ -81,10 +61,10 @@
               />
             </div>
             <div class="admin-login">
-              <span class="admin-login-txt-container">
+              <div class="col-12">
                 <p class="admin">Admin</p>
                 <p class="login4">Login</p>
-              </span>
+              </div>
             </div>
           </button>
         </div>
@@ -98,20 +78,21 @@
           window.location.href = "./StudentPortalDashboard.html";
         });
       }
-      
+
       var teacherLoginCard = document.getElementById("teacherLoginCard");
       if (teacherLoginCard) {
         teacherLoginCard.addEventListener("click", function (e) {
           window.location.href = "./StudentPortalDashboard.html";
         });
       }
-      
+
       var adminLoginCard = document.getElementById("adminLoginCard");
       if (adminLoginCard) {
         adminLoginCard.addEventListener("click", function (e) {
           window.location.href = "./StudentPortalDashboard.html";
         });
       }
-      </script>
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

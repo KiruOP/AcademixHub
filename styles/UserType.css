@@ -209,7 +209,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 7.938rem var(--padding-xl) 17.938rem;
+  padding: 7.938rem 17.938rem;
   line-height: normal;
   letter-spacing: normal;
 }
