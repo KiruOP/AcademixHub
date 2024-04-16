@@ -190,7 +190,7 @@ def login():
     if 'logged_in' in session and session['logged_in']:
         return redirect(url_for('dashboard'))
     else:
-        return render_template('login.html')
+        return render_template('LoginPage.html')
 
 
 @app.route('/signupapi', methods=['POST'])
@@ -244,4 +244,6 @@ def logout():
 
 
 if __name__ == '__main__':
+    app.jinja_env.auto_reload = True
+    app.config['TEMPLATES_AUTO_RELOAD'] = True
     app.run(host='127.0.0.1', port=80)
