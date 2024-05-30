@@ -1,0 +1,899 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Poppins !important; 
+}
+
+.navigation-bar a {
+  cursor: pointer;
+  color: rgb(189, 189, 189);
+  font-weight: 600;
+  transition: .3s ease-in-out;
+}
+
+.navigation-bar a:hover,
+.navigation-bar a.active {
+  color: var(--secondarybackgroundcolor);
+}
+
+.college-logo {
+  height: 5.9rem;
+  width: 5.4rem;
+
+}
+
+.rectangle-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 8rem;
+  width: 8rem;
+  border-radius: var(--br-13xl);
+  background: whitesmoke;
+}
+
+.nav-items {
+  width: 8.125rem;
+}
+
+.navigation1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-29xl);
+}
+
+.logout {
+  color: whitesmoke !important;
+  min-width: 3.438rem;
+}
+
+.navigation-bar,
+.logout-icon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.logout-icon {
+  width: 5.688rem;
+  gap: var(--gap-xs);
+}
+
+.navigation-bar {
+  border-radius: var(--br-5xl);
+  background: hsla(202, 86%, 57%, 1);
+  background: linear-gradient(90deg, hsla(202, 86%, 57%, 1) 1%, hsla(263, 69%, 63%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(202, 86%, 57%, 1) 1%, hsla(263, 69%, 63%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(202, 86%, 57%, 1) 1%, hsla(263, 69%, 63%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#31AAF0", endColorstr="#915ee1", GradientType=1);
+  flex-direction: column;
+  padding: 3rem var(--padding-20xl);
+
+}
+
+.no-application-icon {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+  transform: scale(3.353);
+}
+
+.wrapper-no-application {
+  height: 2.975rem;
+  width: 3rem;
+  position: relative;
+  border-radius: 360px;
+  flex-shrink: 0;
+  min-height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.john-doe,
+.rd-year {
+  position: relative;
+  white-space: nowrap;
+}
+
+.john-doe {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 4.75rem;
+}
+
+.rd-year {
+  width: 4.188rem;
+  color: var(--color-gray-300);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 4.188rem;
+}
+
+.application-name-label,
+.wrapper-no-application-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.wrapper-no-application-parent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-xs);
+}
+
+.bell-ringing-icon {
+  align-self: stretch;
+  width: 3.375rem;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 3rem;
+}
+
+.container i {
+  cursor: pointer;
+}
+
+.profile,
+.main-header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.profile {
+  width: 17.438rem;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.main-header {
+  align-self: center;
+  grid-column: 1/3;
+  height: 3rem;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+
+.frame-heading {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.frame-para {
+  width: 21.5rem;
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.frame-heading-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.063rem;
+  max-width: 100%;
+}
+
+.frame-date {
+  width: 9.563rem;
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  white-space: pre-wrap;
+  display: inline-block;
+}
+
+.welcome-messages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+  padding: 0 0 0 var(--padding-17xl);
+  gap: var(--gap-4xl);
+}
+
+.welcome-messages span {
+  color: aqua;
+}
+
+.college-student-icon {
+  height: 12.625rem;
+  width: 12.688rem;
+  position: relative;
+  border-radius: 9.13px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.frame-parent {
+  border-radius: var(--br-5xl);
+  background: #915ee1;
+  box-shadow: 8px 8px 48px 8px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 32px;
+  color: whitesmoke;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+
+.courses-heading {
+  width: 100%;
+  font-size: 1.17rem;
+  font-weight: 600;
+  text-align: left;
+  text-wrap: wrap;
+}
+
+.view {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--secondarybackgroundcolor);
+  text-align: left;
+  display: inline-block;
+  min-width: 2.813rem;
+}
+
+.course-items,
+.course-list,
+.view-buttons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.view-buttons {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs) var(--padding-22xl-5);
+  background-color: var(--color-mediumslateblue-200);
+  border-radius: var(--br-6xl);
+  flex-direction: row;
+}
+
+.view-buttons:hover{
+  background-color: var(--color-mediumslateblue-100);
+}
+
+.course-items,
+.course-list {
+  flex-direction: column;
+}
+
+.course-items {
+  align-self: stretch;
+  gap: var(--gap-lgi);
+}
+
+.course-list {
+  flex: 1;
+  padding: var(--padding-12xs) 0 0;
+  min-width: 7.5rem;
+}
+
+.icon-container {
+  height: 5.85rem;
+  width: 6.056rem;
+  position: relative;
+  object-fit: contain;
+}
+
+.course-overview,
+.course-status,
+.progress-and-attendance {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.course-status:hover {
+  scale: 102%;
+}
+
+.course-status {
+  transition: .3s ease-in-out;
+  width: 420px;
+  align-self: stretch;
+  border-radius: var(--br-5xl);
+  background-color: rgba(156, 111, 228, 0.3);
+  box-shadow: 8px 8px 48px 8px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 24px 20px;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  color: var(--color-mediumslateblue-200);
+  cursor: pointer;
+}
+
+.course-overview {
+  gap: var(--gap-xs);
+}
+
+.progress-and-attendance {
+  flex: 1;
+  gap: var(--gap-5xl);
+  min-width: 13.875rem;
+  max-width: 100%;
+}
+
+.attendance-parent,
+.content-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.content-wrapper {
+  width: 25.7rem;
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--secondarybackgroundcolor);
+  box-shadow: 8px 8px 48px 8px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 3.063rem;
+  text-align: center;
+  font-size: var(--font-size-2xl);
+  color: whitesmoke;
+  font-family: var(--font-figtree);
+}
+
+.progress-bar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+  border-radius: 50%;
+  background-color: rgb(133, 16, 236);
+  border: 15px solid rgb(230, 59, 219);
+}
+
+.attendance-parent {
+  height: 27.25rem;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+
+
+.welcome {
+  display: grid;
+  grid-row-gap: 1.5rem;
+  align-items: flex-start;
+  flex: 1;
+  flex-direction: column;
+}
+
+.enroll-courses {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 13.875rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+
+.instructors-icon,
+.wrapper-instructors {
+  border: 0;
+  background-color: transparent;
+  outline: 0;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.instructors-icon {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  box-shadow: 8px 8px 48px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 24px;
+}
+
+.wrapper-instructors {
+  height: 20.563rem;
+  width: auto;
+  position: relative;
+  border-radius: var(--br-5xl);
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-headers-label {
+  letter-spacing: 0.05em;
+}
+
+.sub-headers-link {
+  width: 4.188rem;
+  color: var(--color-mediumslateblue-200);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-headers {
+  padding: 0 10px;
+  font-size: 20px;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  align-self: stretch;
+  color: var(--color-black);
+}
+
+.course-instructors,
+.instructor-see {
+  position: relative;
+  font-weight: 600;
+}
+
+.course-instructors {
+  letter-spacing: 0.05em;
+}
+
+.instructor-see {
+  width: 4.188rem;
+  color: var(--color-mediumslateblue-200);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 4.188rem;
+}
+
+.course-instructors-header {
+  width: 22.188rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+
+.instructor-avatars-child {
+  height: 4.375rem;
+  width: 4.375rem;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 4.375rem;
+  transition: .3s ease-in-out;
+}
+
+.instructor-avatars-child:hover {
+  scale: 102%;
+  cursor: pointer;
+}
+
+.course-instructors-header-parent,
+.instructor-avatars,
+.instructors-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.instructor-avatars {
+  flex: 1;
+  border-radius: 10px;
+  background-color: var(--secondarybackgroundcolor);
+  box-shadow: 8px 8px 48px 8px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0.938rem var(--padding-sm);
+  gap: var(--gap-lg);
+}
+
+.course-instructors-header-parent,
+.instructors-list {
+  align-self: stretch;
+}
+
+.instructors-list {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+
+}
+
+.course-instructors-header-parent {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+
+.payment-info1,
+.payment-see {
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.payment-info1 {
+  width: 10.375rem;
+  letter-spacing: 0.05em;
+  line-height: 1.625rem;
+}
+
+.payment-see {
+  height: 1.625rem;
+  width: 4.188rem;
+  color: var(--color-mediumslateblue-200);
+  text-align: center;
+  justify-content: center;
+  min-width: 4.188rem;
+}
+
+.payment-info-header {
+  width: 22.188rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+
+.file-pen {
+  height: 3.713rem;
+  width: 5.306rem;
+  position: relative;
+}
+
+.payment-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xs) 0 var(--padding-smi);
+}
+
+.amount-labels {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 0.844rem;
+}
+
+.total-payable {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-300);
+  display: inline-block;
+  min-width: 6.813rem;
+}
+
+.payment-amounts,
+.payment-status {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.payment-amounts {
+  width: 6.813rem;
+  align-items: flex-start;
+}
+
+.payment-status {
+  align-self: stretch;
+  border-radius: var(--br-5xl);
+  background-color: var(--secondarybackgroundcolor);
+  box-shadow: 8px 8px 48px 8px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  align-items: center;
+  padding: 1.288rem var(--padding-xl) var(--padding-sm);
+  gap: var(--gap-xs);
+  transition-duration: .3s;
+}
+
+.payment-status:hover {
+  scale: 102%;
+}
+
+.payment-details {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1em;
+  cursor: pointer;
+}
+
+
+.instructor-payments,
+.payment-info-header-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.payment-info-header-parent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+}
+
+.instructor-payments {
+  width: 22.688rem;
+  align-items: flex-end;
+  gap: var(--gap-4xl);
+  min-width: 22.688rem;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+
+.student-portal-dashboard {
+  display: flex;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  grid-auto-rows: minmax(60px, auto);
+  grid-gap: var(--gap-5xl);
+}
+
+.student-portal-dashboard {
+  width: 100vw;
+  position: relative;
+  background-color: var(--secondarybackgroundcolor);
+  box-shadow: 12px 12px 48px 24px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 24px;
+  gap: var(--gap-21xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+
+.container {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+input[type=text] {
+  padding: 15px 40px 15px 20px;
+  width: 100%;
+  color: #525252;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(246, 242, 242);
+  outline: none;
+
+}
+
+i {
+  position: relative;
+  left: -37px;
+  color: #8233C5;
+}
+
+@media screen and (max-width: 975px) {
+  .navigation-bar {
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-12xl);
+
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .navigation-bar {
+    display: none;
+  }
+
+  .frame-heading {
+    font-size: 1.625rem;
+  }
+
+  .data-labels,
+  .y-axis {
+    font-size: var(--font-size-40xl);
+    line-height: 1.125rem;
+  }
+
+  .instructor-payments {
+    flex: 1;
+  }
+
+  .greeting {
+    flex-wrap: wrap;
+  }
+
+  .main-section {
+    max-width: 100%;
+  }
+
+  .student-portal-dashboard {
+    gap: var(--gap-xl);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navigation-bar {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+
+  }
+
+  .application-name-label {
+    display: none;
+  }
+
+  .college-student-icon {
+    flex: 1;
+  }
+
+  .frame-parent {
+    padding: var(--padding-xl);
+
+  }
+
+  .frame-parent,
+  .stats-and-courses {
+    flex-wrap: wrap;
+  }
+
+  .instructor-payments,
+  .welcome {
+    min-width: 100%;
+  }
+
+  .greeting {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .profile {
+    gap: 2.75rem;
+  }
+
+  .frame-heading {
+    font-size: var(--font-size-lgi);
+  }
+
+  .progress {
+    font-size: var(--font-size-base);
+  }
+
+  .y-axis {
+    font-size: var(--font-size-25xl);
+    line-height: 0.813rem;
+  }
+
+  .total {
+    font-size: var(--font-size-mid);
+    line-height: 1.125rem;
+  }
+
+  .chart-and-legend {
+    gap: 0.938rem;
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+
+  }
+
+  .enrolled-courses {
+    font-size: var(--font-size-base);
+  }
+
+  .course-status {
+    flex-wrap: wrap;
+  }
+
+  .attendance {
+    font-size: var(--font-size-base);
+  }
+
+  .data-labels {
+    font-size: var(--font-size-25xl);
+    line-height: 0.813rem;
+  }
+
+  .label6,
+  .legend-values {
+    font-size: var(--font-size-mid);
+    line-height: 1.125rem;
+  }
+
+  .content-wrapper {
+    padding-top: var(--padding-13xl);
+    padding-bottom: var(--padding-13xl);
+
+  }
+
+  .frame-group {
+    flex-wrap: wrap;
+  }
+
+  .course-instructors,
+  .instructor-see {
+    font-size: var(--font-size-base);
+  }
+
+  .course-instructors-header,
+  .instructor-avatars {
+    flex-wrap: wrap;
+  }
+
+  .payment-info1,
+  .payment-see {
+    font-size: var(--font-size-base);
+  }
+
+  .payment-info-header {
+    flex-wrap: wrap;
+  }
+
+}
